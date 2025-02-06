@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Albert Einstein</title>
+  <style>
+    /* Basic Reset and Typography */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'jokerman', sans-serif;
+      background:  rgb(220, 237, 245);
+      color: brown;
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+    /* Header Styles */
+    header {
+      background: coral;
+      color: teal;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-style: italic;
+    }
+    /* Navigation Menu */
+    nav {
+      background: indigo;
+      text-align: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    /* Content and Sidebar */
+    .main-content {
+      flex: 3;
+      padding: 30px;
+    }
+    .sidebar {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 30px;
+      border-left: 2px solid #eee;
+    }
+    /* Section Styles */
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      color: #333;
+    }
+    section p, section ul {
+      margin-bottom: 20px;
+    }
+    section ul {
+      list-style: disc inside;
+    }
+    /* Blockquote for Quotes */
+    blockquote {
+      background: #e9e9e9;
+      padding: 20px;
+      border-left: 5px solid #ffd700;
+      margin: 20px 0;
+    }
+    blockquote p {
+      font-style: italic;
+    }
+    blockquote footer {
+      text-align: right;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+    /* Gallery Image */
+    #gallery img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border: 4px solid #ddd;
+    }
+    /* Sidebar Styles */
+    .sidebar h3 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+    .sidebar ul {
+      list-style: square;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    /* Footer Styles */
+    footer {
+      background: black;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><b>Tribute to Albert Einstein</b></h1>
+    <p>"Imagination is more important than knowledge." - Albert Einstein</p>
+    <body bgcolor=""></body>
+ <hr size=10 color="blue">
+ <marquee>Greatest minds in the field of physics</marquee>
+ 
+
+  </header>
+  
+  <nav>
+    <a href="#biography">Biography</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#quotes">Quotes</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+  
+  <div class="container">
+    <div class="main-content">
+      <section id="biography">
+        <h2>Biography</h2>
+        <p>Albert Einstein was a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize in Physics for his explanation of the photoelectric effect. In the following decade, he immigrated to the United States after being targeted by the German Nazi Party. His work also had a major impact on the development of atomic energy. In his later years, Einstein focused on unified field theory. He died in April 1955 at age 76. With his passion for inquiry, Einstein is generally considered the most influential physicist of the 20th century.</p>
+      </section>
+      
+      <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Theory of Relativity</li>
+          <li>Photoelectric Effect</li>
+          <li>Nobel Prize in Physics (1921)</li>
+          <li>Mass-Energy Equivalence Formula: E=mc²</li>
+          <li>Contributions to Quantum Theory</li>
+        </ul>
+      </section>
+      
+      <section id="quotes">
+        <h2>Inspirational Quotes</h2>
+        <blockquote>
+          <p>"Life is like riding a bicycle. To keep your balance you must keep moving."</p>
+          <footer>- Albert Einstein</footer>
+        </blockquote>
+        <blockquote>
+          <p>"I have no special talent. I am only passionately curious."</p>
+          <footer>- Albert Einstein</footer>
+        </blockquote>
+        <blockquote>
+          <p>"The world is a dangerous place to live; not because of the people who are evil, but because of the people who don’t do anything about i."</p>
+          <footer>- Albert Einstein</footer>
+        </blockquote>
+      </section>
+      
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="picture.jpg" alt="Portrait of Albert Einstein">
+        <img src="picture 2.jpg" alt="Portrait of Albert Einstein">
+        <img src="picture 3.jpg" alt="Portrait of Albert Einstein">
+      </section>
+    </div>
+    
+    <aside class="sidebar">
+      <h3>Fun Facts</h3>
+      <ul>
+        <li>Einstein was a passionate violinist.</li>
+        <li>He had a playful sense of humor.</li>
+        <li>His brain was preserved for research after his death.</li>
+      </ul>
+      <h3>Nobel prize</h3>
+      <p>"The Nobel Prize in Physics 1921 was awarded to Albert Einstein "for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect"</p>
+    </aside>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025  Albert Einstein. All rights reserved.</p>
+  </footer>
+</body>
+</html>
